@@ -1,0 +1,1 @@
+#IfWinActive Trovef2::func()func(){  If Stop  {    Stop := False    Pause  }Loop{  send, {s down}	sleep, 1000	send, {s up}	send, {LButton}	send, {LButton}	send, {LButton}	send, {LButton}	send, {LButton}	send, {LButton}	send, {LButton}	send, {LButton}}}Returnf3::               If not Stop  {    Stop := True	send, {s up}    Pause  }Return
